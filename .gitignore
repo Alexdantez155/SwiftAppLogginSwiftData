@@ -1,0 +1,55 @@
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Xcode - datos locales
+build/
+DerivedData/
+*.xcuserstate
+*.xccheckout
+xcuserdata/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Configuración personal de Xcode
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+contents.xcworkspacedata
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Logs y archivos temporales
+*.log
+*.tmp
+*.swp
+*.orig
+
+# Secretos y configuraciones locales
+.env
+.env.*
+!.env.example
+Secrets.swift
+Config.local.swift
+
+# Claves y certificados privados
+*.p12
+*.mobileprovision
+*.provisionprofile
+*.key
+*.pem
